@@ -5,106 +5,106 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大, server: 134.195.196.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 2, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 4, server: 134.195.196.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 5, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 6, server: 134.195.196.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 7, server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 8, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 9, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 10, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 11, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 12, server: 134.195.196.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 13, server: 134.195.196.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 14, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 15, server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 16, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 17, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 2, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 18, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 19, server: 134.195.196.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 20, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 21, server: 134.195.196.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 22, server: 134.195.196.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 23, server: 134.195.196.202, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 24, server: 134.195.196.179, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 3, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 25, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 26, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 4, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 5, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 27, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 28, server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 29, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 30, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 31, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 32, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 33, server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 34, server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 35, server: 134.195.196.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 36, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 37, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 38, server: 134.195.196.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 39, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 40, server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 41, server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 42, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 43, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 44, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 45, server: 134.195.196.179, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 46, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 瑞典, server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 47, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 瑞典 2, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 瑞典 3, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 48, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 瑞典 4, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 49, server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 50, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 51, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 6, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 52, server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 7, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 瑞典 5, server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 8, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 9, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 10, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 53, server: 134.195.196.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 54, server: 134.195.196.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 55, server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 56, server: 134.195.196.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 57, server: 134.195.196.24, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 58, server: 134.195.196.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 59, server: 134.195.196.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 60, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 11, server: 172.99.190.35, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 瑞典 6, server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 瑞典 7, server: 167.88.63.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 61, server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 62, server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇬🇧 英国, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 瑞典 8, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 63, server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 64, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 65, server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 12, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 美国 13, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 2, server: 134.195.196.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 3, server: 134.195.196.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 4, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 5, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 6, server: 134.195.196.199, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 7, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 8, server: 134.195.196.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 9, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 10, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 11, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 12, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 13, server: 134.195.196.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 14, server: 134.195.196.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 15, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇮🇳 印度, server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇲 美国 14, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 15, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 16, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 17, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 66, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 67, server: 134.195.196.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 68, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 18, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 19, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 美国 20, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 21, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 22, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇹 意大利, server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇦 加拿大 16, server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 17, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 18, server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 19, server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇦🇺 澳大利亚, server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇦🇺 澳大利亚 2, server: 172.105.167.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 20, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 21, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 22, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 23, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 24, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 25, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 澳大利亚 3, server: 172.105.172.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 26, server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇲 美国 2, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 澳大利亚 4, server: 172.105.167.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 27, server: 134.195.196.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 28, server: 134.195.196.202, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 29, server: 134.195.196.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 3, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 4, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 5, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 30, server: 134.195.196.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 31, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 32, server: 134.195.196.179, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 33, server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 6, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 34, server: 134.195.196.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 35, server: 134.195.196.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 7, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇹 意大利 2, server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇦 加拿大 36, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 37, server: 134.195.196.179, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 8, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇦🇺 澳大利亚 5, server: 172.105.172.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 9, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 38, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 39, server: 134.195.196.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 40, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 瑞典, server: 167.88.63.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 10, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 瑞典 2, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 41, server: 134.195.196.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 42, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 43, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 瑞典 3, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 瑞典 4, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 44, server: 134.195.196.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 11, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 45, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 46, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 12, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 47, server: 134.195.196.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 13, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 48, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 49, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 50, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 14, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 51, server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 15, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 16, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 17, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 挪威, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 18, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 19, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 20, server: 172.99.190.35, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 21, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 瑞典 5, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 52, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 53, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 瑞典 6, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 54, server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国 22, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 瑞典 7, server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 瑞典 8, server: 167.88.63.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 瑞典 9, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 55, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 23, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 美国 24, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 瑞典 10, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,9 +113,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇲 美国
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
+      - 🇭🇰 香港
       - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
@@ -129,99 +129,99 @@ proxy-groups:
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
       - 🇨🇦 加拿大 15
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
-      - 🇺🇲 美国 2
       - 🇨🇦 加拿大 18
       - 🇨🇦 加拿大 19
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 20
       - 🇨🇦 加拿大 21
       - 🇨🇦 加拿大 22
       - 🇨🇦 加拿大 23
+      - 🇺🇲 美国
       - 🇨🇦 加拿大 24
-      - 🇺🇲 美国 3
       - 🇨🇦 加拿大 25
+      - 🇦🇺 澳大利亚 3
       - 🇨🇦 加拿大 26
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
+      - 🇺🇲 美国 2
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 27
       - 🇨🇦 加拿大 28
       - 🇨🇦 加拿大 29
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
       - 🇨🇦 加拿大 30
       - 🇨🇦 加拿大 31
       - 🇨🇦 加拿大 32
       - 🇨🇦 加拿大 33
+      - 🇺🇲 美国 6
       - 🇨🇦 加拿大 34
       - 🇨🇦 加拿大 35
+      - 🇺🇲 美国 7
+      - 🇮🇹 意大利 2
       - 🇨🇦 加拿大 36
       - 🇨🇦 加拿大 37
+      - 🇺🇲 美国 8
+      - 🇦🇺 澳大利亚 5
+      - 🇺🇲 美国 9
       - 🇨🇦 加拿大 38
       - 🇨🇦 加拿大 39
       - 🇨🇦 加拿大 40
+      - 瑞典
+      - 🇺🇲 美国 10
+      - 瑞典 2
       - 🇨🇦 加拿大 41
       - 🇨🇦 加拿大 42
       - 🇨🇦 加拿大 43
+      - 瑞典 3
+      - 瑞典 4
       - 🇨🇦 加拿大 44
+      - 🇬🇧 英国
+      - 🇺🇲 美国 11
       - 🇨🇦 加拿大 45
       - 🇨🇦 加拿大 46
-      - 瑞典
+      - 🇺🇲 美国 12
       - 🇨🇦 加拿大 47
-      - 瑞典 2
-      - 瑞典 3
+      - 🇺🇲 美国 13
       - 🇨🇦 加拿大 48
-      - 瑞典 4
       - 🇨🇦 加拿大 49
       - 🇨🇦 加拿大 50
-      - 🇨🇦 加拿大 51
-      - 🇺🇲 美国 6
-      - 🇨🇦 加拿大 52
-      - 🇺🇲 美国 7
-      - 瑞典 5
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇨🇦 加拿大 53
-      - 🇨🇦 加拿大 54
-      - 🇨🇦 加拿大 55
-      - 🇨🇦 加拿大 56
-      - 🇨🇦 加拿大 57
-      - 🇨🇦 加拿大 58
-      - 🇨🇦 加拿大 59
-      - 🇨🇦 加拿大 60
-      - 🇺🇲 美国 11
-      - 瑞典 6
-      - 瑞典 7
-      - 🇨🇦 加拿大 61
-      - 🇨🇦 加拿大 62
-      - 🇬🇧 英国
-      - 瑞典 8
-      - 🇨🇦 加拿大 63
-      - 🇨🇦 加拿大 64
-      - 🇨🇦 加拿大 65
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇮🇳 印度
       - 🇺🇲 美国 14
+      - 🇨🇦 加拿大 51
       - 🇺🇲 美国 15
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
-      - 🇨🇦 加拿大 66
-      - 🇨🇦 加拿大 67
-      - 🇨🇦 加拿大 68
+      - 挪威
       - 🇺🇲 美国 18
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
       - 🇺🇲 美国 21
+      - 瑞典 5
+      - 🇨🇦 加拿大 52
+      - 🇨🇦 加拿大 53
+      - 瑞典 6
+      - 🇨🇦 加拿大 54
       - 🇺🇲 美国 22
+      - 瑞典 7
+      - 瑞典 8
+      - 瑞典 9
+      - 🇨🇦 加拿大 55
+      - 🇺🇲 美国 23
+      - 🇺🇲 美国 24
+      - 瑞典 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
+      - 🇭🇰 香港
       - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
@@ -235,98 +235,98 @@ proxy-groups:
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
       - 🇨🇦 加拿大 15
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
-      - 🇺🇲 美国 2
       - 🇨🇦 加拿大 18
       - 🇨🇦 加拿大 19
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 20
       - 🇨🇦 加拿大 21
       - 🇨🇦 加拿大 22
       - 🇨🇦 加拿大 23
+      - 🇺🇲 美国
       - 🇨🇦 加拿大 24
-      - 🇺🇲 美国 3
       - 🇨🇦 加拿大 25
+      - 🇦🇺 澳大利亚 3
       - 🇨🇦 加拿大 26
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
+      - 🇺🇲 美国 2
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 27
       - 🇨🇦 加拿大 28
       - 🇨🇦 加拿大 29
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
       - 🇨🇦 加拿大 30
       - 🇨🇦 加拿大 31
       - 🇨🇦 加拿大 32
       - 🇨🇦 加拿大 33
+      - 🇺🇲 美国 6
       - 🇨🇦 加拿大 34
       - 🇨🇦 加拿大 35
+      - 🇺🇲 美国 7
+      - 🇮🇹 意大利 2
       - 🇨🇦 加拿大 36
       - 🇨🇦 加拿大 37
+      - 🇺🇲 美国 8
+      - 🇦🇺 澳大利亚 5
+      - 🇺🇲 美国 9
       - 🇨🇦 加拿大 38
       - 🇨🇦 加拿大 39
       - 🇨🇦 加拿大 40
+      - 瑞典
+      - 🇺🇲 美国 10
+      - 瑞典 2
       - 🇨🇦 加拿大 41
       - 🇨🇦 加拿大 42
       - 🇨🇦 加拿大 43
+      - 瑞典 3
+      - 瑞典 4
       - 🇨🇦 加拿大 44
+      - 🇬🇧 英国
+      - 🇺🇲 美国 11
       - 🇨🇦 加拿大 45
       - 🇨🇦 加拿大 46
-      - 瑞典
+      - 🇺🇲 美国 12
       - 🇨🇦 加拿大 47
-      - 瑞典 2
-      - 瑞典 3
+      - 🇺🇲 美国 13
       - 🇨🇦 加拿大 48
-      - 瑞典 4
       - 🇨🇦 加拿大 49
       - 🇨🇦 加拿大 50
-      - 🇨🇦 加拿大 51
-      - 🇺🇲 美国 6
-      - 🇨🇦 加拿大 52
-      - 🇺🇲 美国 7
-      - 瑞典 5
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇨🇦 加拿大 53
-      - 🇨🇦 加拿大 54
-      - 🇨🇦 加拿大 55
-      - 🇨🇦 加拿大 56
-      - 🇨🇦 加拿大 57
-      - 🇨🇦 加拿大 58
-      - 🇨🇦 加拿大 59
-      - 🇨🇦 加拿大 60
-      - 🇺🇲 美国 11
-      - 瑞典 6
-      - 瑞典 7
-      - 🇨🇦 加拿大 61
-      - 🇨🇦 加拿大 62
-      - 🇬🇧 英国
-      - 瑞典 8
-      - 🇨🇦 加拿大 63
-      - 🇨🇦 加拿大 64
-      - 🇨🇦 加拿大 65
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇮🇳 印度
       - 🇺🇲 美国 14
+      - 🇨🇦 加拿大 51
       - 🇺🇲 美国 15
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
-      - 🇨🇦 加拿大 66
-      - 🇨🇦 加拿大 67
-      - 🇨🇦 加拿大 68
+      - 挪威
       - 🇺🇲 美国 18
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
       - 🇺🇲 美国 21
+      - 瑞典 5
+      - 🇨🇦 加拿大 52
+      - 🇨🇦 加拿大 53
+      - 瑞典 6
+      - 🇨🇦 加拿大 54
       - 🇺🇲 美国 22
+      - 瑞典 7
+      - 瑞典 8
+      - 瑞典 9
+      - 🇨🇦 加拿大 55
+      - 🇺🇲 美国 23
+      - 🇺🇲 美国 24
+      - 瑞典 10
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 美国
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
+      - 🇭🇰 香港
       - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
@@ -340,98 +340,98 @@ proxy-groups:
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
       - 🇨🇦 加拿大 15
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
-      - 🇺🇲 美国 2
       - 🇨🇦 加拿大 18
       - 🇨🇦 加拿大 19
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 20
       - 🇨🇦 加拿大 21
       - 🇨🇦 加拿大 22
       - 🇨🇦 加拿大 23
+      - 🇺🇲 美国
       - 🇨🇦 加拿大 24
-      - 🇺🇲 美国 3
       - 🇨🇦 加拿大 25
+      - 🇦🇺 澳大利亚 3
       - 🇨🇦 加拿大 26
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
+      - 🇺🇲 美国 2
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 27
       - 🇨🇦 加拿大 28
       - 🇨🇦 加拿大 29
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
       - 🇨🇦 加拿大 30
       - 🇨🇦 加拿大 31
       - 🇨🇦 加拿大 32
       - 🇨🇦 加拿大 33
+      - 🇺🇲 美国 6
       - 🇨🇦 加拿大 34
       - 🇨🇦 加拿大 35
+      - 🇺🇲 美国 7
+      - 🇮🇹 意大利 2
       - 🇨🇦 加拿大 36
       - 🇨🇦 加拿大 37
+      - 🇺🇲 美国 8
+      - 🇦🇺 澳大利亚 5
+      - 🇺🇲 美国 9
       - 🇨🇦 加拿大 38
       - 🇨🇦 加拿大 39
       - 🇨🇦 加拿大 40
+      - 瑞典
+      - 🇺🇲 美国 10
+      - 瑞典 2
       - 🇨🇦 加拿大 41
       - 🇨🇦 加拿大 42
       - 🇨🇦 加拿大 43
+      - 瑞典 3
+      - 瑞典 4
       - 🇨🇦 加拿大 44
+      - 🇬🇧 英国
+      - 🇺🇲 美国 11
       - 🇨🇦 加拿大 45
       - 🇨🇦 加拿大 46
-      - 瑞典
+      - 🇺🇲 美国 12
       - 🇨🇦 加拿大 47
-      - 瑞典 2
-      - 瑞典 3
+      - 🇺🇲 美国 13
       - 🇨🇦 加拿大 48
-      - 瑞典 4
       - 🇨🇦 加拿大 49
       - 🇨🇦 加拿大 50
-      - 🇨🇦 加拿大 51
-      - 🇺🇲 美国 6
-      - 🇨🇦 加拿大 52
-      - 🇺🇲 美国 7
-      - 瑞典 5
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇨🇦 加拿大 53
-      - 🇨🇦 加拿大 54
-      - 🇨🇦 加拿大 55
-      - 🇨🇦 加拿大 56
-      - 🇨🇦 加拿大 57
-      - 🇨🇦 加拿大 58
-      - 🇨🇦 加拿大 59
-      - 🇨🇦 加拿大 60
-      - 🇺🇲 美国 11
-      - 瑞典 6
-      - 瑞典 7
-      - 🇨🇦 加拿大 61
-      - 🇨🇦 加拿大 62
-      - 🇬🇧 英国
-      - 瑞典 8
-      - 🇨🇦 加拿大 63
-      - 🇨🇦 加拿大 64
-      - 🇨🇦 加拿大 65
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇮🇳 印度
       - 🇺🇲 美国 14
+      - 🇨🇦 加拿大 51
       - 🇺🇲 美国 15
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
-      - 🇨🇦 加拿大 66
-      - 🇨🇦 加拿大 67
-      - 🇨🇦 加拿大 68
+      - 挪威
       - 🇺🇲 美国 18
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
       - 🇺🇲 美国 21
+      - 瑞典 5
+      - 🇨🇦 加拿大 52
+      - 🇨🇦 加拿大 53
+      - 瑞典 6
+      - 🇨🇦 加拿大 54
       - 🇺🇲 美国 22
+      - 瑞典 7
+      - 瑞典 8
+      - 瑞典 9
+      - 🇨🇦 加拿大 55
+      - 🇺🇲 美国 23
+      - 🇺🇲 美国 24
+      - 瑞典 10
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 美国
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
+      - 🇭🇰 香港
       - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
@@ -445,90 +445,90 @@ proxy-groups:
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
       - 🇨🇦 加拿大 15
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
-      - 🇺🇲 美国 2
       - 🇨🇦 加拿大 18
       - 🇨🇦 加拿大 19
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 20
       - 🇨🇦 加拿大 21
       - 🇨🇦 加拿大 22
       - 🇨🇦 加拿大 23
+      - 🇺🇲 美国
       - 🇨🇦 加拿大 24
-      - 🇺🇲 美国 3
       - 🇨🇦 加拿大 25
+      - 🇦🇺 澳大利亚 3
       - 🇨🇦 加拿大 26
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
+      - 🇺🇲 美国 2
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 27
       - 🇨🇦 加拿大 28
       - 🇨🇦 加拿大 29
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
       - 🇨🇦 加拿大 30
       - 🇨🇦 加拿大 31
       - 🇨🇦 加拿大 32
       - 🇨🇦 加拿大 33
+      - 🇺🇲 美国 6
       - 🇨🇦 加拿大 34
       - 🇨🇦 加拿大 35
+      - 🇺🇲 美国 7
+      - 🇮🇹 意大利 2
       - 🇨🇦 加拿大 36
       - 🇨🇦 加拿大 37
+      - 🇺🇲 美国 8
+      - 🇦🇺 澳大利亚 5
+      - 🇺🇲 美国 9
       - 🇨🇦 加拿大 38
       - 🇨🇦 加拿大 39
       - 🇨🇦 加拿大 40
+      - 瑞典
+      - 🇺🇲 美国 10
+      - 瑞典 2
       - 🇨🇦 加拿大 41
       - 🇨🇦 加拿大 42
       - 🇨🇦 加拿大 43
+      - 瑞典 3
+      - 瑞典 4
       - 🇨🇦 加拿大 44
+      - 🇬🇧 英国
+      - 🇺🇲 美国 11
       - 🇨🇦 加拿大 45
       - 🇨🇦 加拿大 46
-      - 瑞典
+      - 🇺🇲 美国 12
       - 🇨🇦 加拿大 47
-      - 瑞典 2
-      - 瑞典 3
+      - 🇺🇲 美国 13
       - 🇨🇦 加拿大 48
-      - 瑞典 4
       - 🇨🇦 加拿大 49
       - 🇨🇦 加拿大 50
-      - 🇨🇦 加拿大 51
-      - 🇺🇲 美国 6
-      - 🇨🇦 加拿大 52
-      - 🇺🇲 美国 7
-      - 瑞典 5
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇨🇦 加拿大 53
-      - 🇨🇦 加拿大 54
-      - 🇨🇦 加拿大 55
-      - 🇨🇦 加拿大 56
-      - 🇨🇦 加拿大 57
-      - 🇨🇦 加拿大 58
-      - 🇨🇦 加拿大 59
-      - 🇨🇦 加拿大 60
-      - 🇺🇲 美国 11
-      - 瑞典 6
-      - 瑞典 7
-      - 🇨🇦 加拿大 61
-      - 🇨🇦 加拿大 62
-      - 🇬🇧 英国
-      - 瑞典 8
-      - 🇨🇦 加拿大 63
-      - 🇨🇦 加拿大 64
-      - 🇨🇦 加拿大 65
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇮🇳 印度
       - 🇺🇲 美国 14
+      - 🇨🇦 加拿大 51
       - 🇺🇲 美国 15
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
-      - 🇨🇦 加拿大 66
-      - 🇨🇦 加拿大 67
-      - 🇨🇦 加拿大 68
+      - 挪威
       - 🇺🇲 美国 18
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
       - 🇺🇲 美国 21
+      - 瑞典 5
+      - 🇨🇦 加拿大 52
+      - 🇨🇦 加拿大 53
+      - 瑞典 6
+      - 🇨🇦 加拿大 54
       - 🇺🇲 美国 22
+      - 瑞典 7
+      - 瑞典 8
+      - 瑞典 9
+      - 🇨🇦 加拿大 55
+      - 🇺🇲 美国 23
+      - 🇺🇲 美国 24
+      - 瑞典 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,9 +548,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇲 美国
       - 🇨🇦 加拿大
       - 🇨🇦 加拿大 2
+      - 🇭🇰 香港
       - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
@@ -564,90 +564,90 @@ proxy-groups:
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
       - 🇨🇦 加拿大 15
+      - 🇮🇳 印度
+      - 🇮🇹 意大利
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
-      - 🇺🇲 美国 2
       - 🇨🇦 加拿大 18
       - 🇨🇦 加拿大 19
+      - 🇦🇺 澳大利亚
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 20
       - 🇨🇦 加拿大 21
       - 🇨🇦 加拿大 22
       - 🇨🇦 加拿大 23
+      - 🇺🇲 美国
       - 🇨🇦 加拿大 24
-      - 🇺🇲 美国 3
       - 🇨🇦 加拿大 25
+      - 🇦🇺 澳大利亚 3
       - 🇨🇦 加拿大 26
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
+      - 🇺🇲 美国 2
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 27
       - 🇨🇦 加拿大 28
       - 🇨🇦 加拿大 29
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
       - 🇨🇦 加拿大 30
       - 🇨🇦 加拿大 31
       - 🇨🇦 加拿大 32
       - 🇨🇦 加拿大 33
+      - 🇺🇲 美国 6
       - 🇨🇦 加拿大 34
       - 🇨🇦 加拿大 35
+      - 🇺🇲 美国 7
+      - 🇮🇹 意大利 2
       - 🇨🇦 加拿大 36
       - 🇨🇦 加拿大 37
+      - 🇺🇲 美国 8
+      - 🇦🇺 澳大利亚 5
+      - 🇺🇲 美国 9
       - 🇨🇦 加拿大 38
       - 🇨🇦 加拿大 39
       - 🇨🇦 加拿大 40
+      - 瑞典
+      - 🇺🇲 美国 10
+      - 瑞典 2
       - 🇨🇦 加拿大 41
       - 🇨🇦 加拿大 42
       - 🇨🇦 加拿大 43
+      - 瑞典 3
+      - 瑞典 4
       - 🇨🇦 加拿大 44
+      - 🇬🇧 英国
+      - 🇺🇲 美国 11
       - 🇨🇦 加拿大 45
       - 🇨🇦 加拿大 46
-      - 瑞典
+      - 🇺🇲 美国 12
       - 🇨🇦 加拿大 47
-      - 瑞典 2
-      - 瑞典 3
+      - 🇺🇲 美国 13
       - 🇨🇦 加拿大 48
-      - 瑞典 4
       - 🇨🇦 加拿大 49
       - 🇨🇦 加拿大 50
-      - 🇨🇦 加拿大 51
-      - 🇺🇲 美国 6
-      - 🇨🇦 加拿大 52
-      - 🇺🇲 美国 7
-      - 瑞典 5
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇨🇦 加拿大 53
-      - 🇨🇦 加拿大 54
-      - 🇨🇦 加拿大 55
-      - 🇨🇦 加拿大 56
-      - 🇨🇦 加拿大 57
-      - 🇨🇦 加拿大 58
-      - 🇨🇦 加拿大 59
-      - 🇨🇦 加拿大 60
-      - 🇺🇲 美国 11
-      - 瑞典 6
-      - 瑞典 7
-      - 🇨🇦 加拿大 61
-      - 🇨🇦 加拿大 62
-      - 🇬🇧 英国
-      - 瑞典 8
-      - 🇨🇦 加拿大 63
-      - 🇨🇦 加拿大 64
-      - 🇨🇦 加拿大 65
-      - 🇺🇲 美国 12
-      - 🇺🇲 美国 13
-      - 🇮🇳 印度
       - 🇺🇲 美国 14
+      - 🇨🇦 加拿大 51
       - 🇺🇲 美国 15
       - 🇺🇲 美国 16
       - 🇺🇲 美国 17
-      - 🇨🇦 加拿大 66
-      - 🇨🇦 加拿大 67
-      - 🇨🇦 加拿大 68
+      - 挪威
       - 🇺🇲 美国 18
       - 🇺🇲 美国 19
       - 🇺🇲 美国 20
       - 🇺🇲 美国 21
+      - 瑞典 5
+      - 🇨🇦 加拿大 52
+      - 🇨🇦 加拿大 53
+      - 瑞典 6
+      - 🇨🇦 加拿大 54
       - 🇺🇲 美国 22
+      - 瑞典 7
+      - 瑞典 8
+      - 瑞典 9
+      - 🇨🇦 加拿大 55
+      - 🇺🇲 美国 23
+      - 🇺🇲 美国 24
+      - 瑞典 10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -15,55 +15,29 @@ dns:
     fallback: ['tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 'CM 香港-SS', type: ss, server: gy1-120.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 香港-SS', type: ss, server: cs.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 香港-SS', type: ss, server: HZ.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 香港-SS|解锁', type: ss, server: gy1-120.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 香港-SS|解锁', type: ss, server: cs.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 香港-SS|解锁', type: ss, server: HZ.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 台湾1-SS|解锁', type: ss, server: gy1-120.ttcc001.xyz, port: 50003, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 台湾1-SS|解锁', type: ss, server: cs.ttcc001.xyz, port: 50003, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 台湾1-SS|解锁', type: ss, server: HZ.ttcc001.xyz, port: 50003, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 台湾2-SS|解锁', type: ss, server: gy1-120.ttcc001.xyz, port: 50068, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 台湾2-SS|解锁', type: ss, server: cs.ttcc001.xyz, port: 50068, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 台湾2-SS|解锁', type: ss, server: HZ.ttcc001.xyz, port: 50068, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 美国-SS', type: ss, server: gy1-120.ttcc001.xyz, port: 50066, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 美国-SS', type: ss, server: cs.ttcc001.xyz, port: 50066, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 美国-SS', type: ss, server: HZ.ttcc001.xyz, port: 50066, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 美国-SS|解锁', type: ss, server: gy1-120.ttcc001.xyz, port: 50056, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 美国-SS|解锁', type: ss, server: cs.ttcc001.xyz, port: 50056, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 美国-SS|解锁', type: ss, server: HZ.ttcc001.xyz, port: 50056, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 日本-SS', type: ss, server: gy1-120.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 日本-SS', type: ss, server: cs.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 日本-SS', type: ss, server: HZ.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 新加坡-SS', type: ss, server: gy1-120.ttcc001.xyz, port: 50065, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 新加坡-SS', type: ss, server: cs.ttcc001.xyz, port: 50065, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 新加坡-SS', type: ss, server: HZ.ttcc001.xyz, port: 50065, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 印度-SS', type: ss, server: gy1-120.ttcc001.xyz, port: 50055, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU 印度-SS', type: ss, server: cs.ttcc001.xyz, port: 50055, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CU2 印度-SS', type: ss, server: HZ.ttcc001.xyz, port: 50055, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
-    - { name: 'CM 香港-V2|解锁', type: vmess, server: gy1-120.ttcc001.xyz, port: 51002, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 香港-V2|解锁', type: vmess, server: cs.ttcc001.xyz, port: 51002, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 香港-V2|解锁', type: vmess, server: HZ.ttcc001.xyz, port: 51002, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CM 台湾1-V2|解锁', type: vmess, server: gy1-120.ttcc001.xyz, port: 51003, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 台湾1-V2|解锁', type: vmess, server: cs.ttcc001.xyz, port: 51003, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 台湾1-V2|解锁', type: vmess, server: HZ.ttcc001.xyz, port: 51003, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CM 台湾2-V2|解锁', type: vmess, server: gy1-120.ttcc001.xyz, port: 51068, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 台湾2-V2|解锁', type: vmess, server: cs.ttcc001.xyz, port: 51068, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 台湾2-V2|解锁', type: vmess, server: HZ.ttcc001.xyz, port: 51068, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CM 美国-V2', type: vmess, server: gy1-120.ttcc001.xyz, port: 51066, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 美国-V2', type: vmess, server: cs.ttcc001.xyz, port: 51066, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 美国-V2', type: vmess, server: HZ.ttcc001.xyz, port: 51066, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CM 美国-V2|解锁', type: vmess, server: gy1-120.ttcc001.xyz, port: 51056, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 美国-V2|解锁', type: vmess, server: cs.ttcc001.xyz, port: 51056, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 美国-V2|解锁', type: vmess, server: HZ.ttcc001.xyz, port: 51056, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CM 日本-V2', type: vmess, server: gy1-120.ttcc001.xyz, port: 51060, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU 日本-V2', type: vmess, server: cs.ttcc001.xyz, port: 51060, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
-    - { name: 'CU2 日本-V2', type: vmess, server: HZ.ttcc001.xyz, port: 51060, uuid: 5ff4e143-ecaa-4725-93e6-174b3c36771e, alterId: 1, cipher: auto, udp: true, network: ws }
+    - { name: 'CM 香港', type: ss, server: gy1-120.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 香港', type: ss, server: cs.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CN2 香港 2X', type: ss, server: sh.ttcc001.xyz, port: 50067, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 香港|HKT', type: ss, server: gy1-120.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 香港|HKT', type: ss, server: cs.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CN2 香港-HKT 2X', type: ss, server: SH.ttcc001.xyz, port: 50002, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 台湾1', type: ss, server: gy1-120.ttcc001.xyz, port: 50003, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 台湾1', type: ss, server: cs.ttcc001.xyz, port: 50003, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 台湾2', type: ss, server: gy1-120.ttcc001.xyz, port: 50068, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 台湾2', type: ss, server: cs.ttcc001.xyz, port: 50068, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 美国1', type: ss, server: gy1-120.ttcc001.xyz, port: 50066, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 美国1', type: ss, server: cs.ttcc001.xyz, port: 50066, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 美国2', type: ss, server: gy1-120.ttcc001.xyz, port: 50056, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 美国2', type: ss, server: cs.ttcc001.xyz, port: 50056, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 日本', type: ss, server: gy1-120.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 日本', type: ss, server: cs.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CN2 日本 2X', type: ss, server: SH.ttcc001.xyz, port: 50060, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CM 新加坡', type: ss, server: gy1-120.ttcc001.xyz, port: 50065, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
+    - { name: 'CU 新加坡', type: ss, server: cs.ttcc001.xyz, port: 50065, cipher: aes-256-gcm, password: 5ff4e143-ecaa-4725-93e6-174b3c36771e, udp: true }
 proxy-groups:
-    - { name: Teacat, type: select, proxies: [自动选择, 故障转移, 'CM 香港-SS', 'CU 香港-SS', 'CU2 香港-SS', 'CM 香港-SS|解锁', 'CU 香港-SS|解锁', 'CU2 香港-SS|解锁', 'CM 台湾1-SS|解锁', 'CU 台湾1-SS|解锁', 'CU2 台湾1-SS|解锁', 'CM 台湾2-SS|解锁', 'CU 台湾2-SS|解锁', 'CU2 台湾2-SS|解锁', 'CM 美国-SS', 'CU 美国-SS', 'CU2 美国-SS', 'CM 美国-SS|解锁', 'CU 美国-SS|解锁', 'CU2 美国-SS|解锁', 'CM 日本-SS', 'CU 日本-SS', 'CU2 日本-SS', 'CM 新加坡-SS', 'CU 新加坡-SS', 'CU2 新加坡-SS', 'CM 印度-SS', 'CU 印度-SS', 'CU2 印度-SS', 'CM 香港-V2|解锁', 'CU 香港-V2|解锁', 'CU2 香港-V2|解锁', 'CM 台湾1-V2|解锁', 'CU 台湾1-V2|解锁', 'CU2 台湾1-V2|解锁', 'CM 台湾2-V2|解锁', 'CU 台湾2-V2|解锁', 'CU2 台湾2-V2|解锁', 'CM 美国-V2', 'CU 美国-V2', 'CU2 美国-V2', 'CM 美国-V2|解锁', 'CU 美国-V2|解锁', 'CU2 美国-V2|解锁', 'CM 日本-V2', 'CU 日本-V2', 'CU2 日本-V2'] }
-    - { name: 自动选择, type: url-test, proxies: ['CM 香港-SS', 'CU 香港-SS', 'CU2 香港-SS', 'CM 香港-SS|解锁', 'CU 香港-SS|解锁', 'CU2 香港-SS|解锁', 'CM 台湾1-SS|解锁', 'CU 台湾1-SS|解锁', 'CU2 台湾1-SS|解锁', 'CM 台湾2-SS|解锁', 'CU 台湾2-SS|解锁', 'CU2 台湾2-SS|解锁', 'CM 美国-SS', 'CU 美国-SS', 'CU2 美国-SS', 'CM 美国-SS|解锁', 'CU 美国-SS|解锁', 'CU2 美国-SS|解锁', 'CM 日本-SS', 'CU 日本-SS', 'CU2 日本-SS', 'CM 新加坡-SS', 'CU 新加坡-SS', 'CU2 新加坡-SS', 'CM 印度-SS', 'CU 印度-SS', 'CU2 印度-SS', 'CM 香港-V2|解锁', 'CU 香港-V2|解锁', 'CU2 香港-V2|解锁', 'CM 台湾1-V2|解锁', 'CU 台湾1-V2|解锁', 'CU2 台湾1-V2|解锁', 'CM 台湾2-V2|解锁', 'CU 台湾2-V2|解锁', 'CU2 台湾2-V2|解锁', 'CM 美国-V2', 'CU 美国-V2', 'CU2 美国-V2', 'CM 美国-V2|解锁', 'CU 美国-V2|解锁', 'CU2 美国-V2|解锁', 'CM 日本-V2', 'CU 日本-V2', 'CU2 日本-V2'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['CM 香港-SS', 'CU 香港-SS', 'CU2 香港-SS', 'CM 香港-SS|解锁', 'CU 香港-SS|解锁', 'CU2 香港-SS|解锁', 'CM 台湾1-SS|解锁', 'CU 台湾1-SS|解锁', 'CU2 台湾1-SS|解锁', 'CM 台湾2-SS|解锁', 'CU 台湾2-SS|解锁', 'CU2 台湾2-SS|解锁', 'CM 美国-SS', 'CU 美国-SS', 'CU2 美国-SS', 'CM 美国-SS|解锁', 'CU 美国-SS|解锁', 'CU2 美国-SS|解锁', 'CM 日本-SS', 'CU 日本-SS', 'CU2 日本-SS', 'CM 新加坡-SS', 'CU 新加坡-SS', 'CU2 新加坡-SS', 'CM 印度-SS', 'CU 印度-SS', 'CU2 印度-SS', 'CM 香港-V2|解锁', 'CU 香港-V2|解锁', 'CU2 香港-V2|解锁', 'CM 台湾1-V2|解锁', 'CU 台湾1-V2|解锁', 'CU2 台湾1-V2|解锁', 'CM 台湾2-V2|解锁', 'CU 台湾2-V2|解锁', 'CU2 台湾2-V2|解锁', 'CM 美国-V2', 'CU 美国-V2', 'CU2 美国-V2', 'CM 美国-V2|解锁', 'CU 美国-V2|解锁', 'CU2 美国-V2|解锁', 'CM 日本-V2', 'CU 日本-V2', 'CU2 日本-V2'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: Teacat, type: select, proxies: [自动选择, 故障转移, 'CM 香港', 'CU 香港', 'CN2 香港 2X', 'CM 香港|HKT', 'CU 香港|HKT', 'CN2 香港-HKT 2X', 'CM 台湾1', 'CU 台湾1', 'CM 台湾2', 'CU 台湾2', 'CM 美国1', 'CU 美国1', 'CM 美国2', 'CU 美国2', 'CM 日本', 'CU 日本', 'CN2 日本 2X', 'CM 新加坡', 'CU 新加坡'] }
+    - { name: 自动选择, type: url-test, proxies: ['CM 香港', 'CU 香港', 'CN2 香港 2X', 'CM 香港|HKT', 'CU 香港|HKT', 'CN2 香港-HKT 2X', 'CM 台湾1', 'CU 台湾1', 'CM 台湾2', 'CU 台湾2', 'CM 美国1', 'CU 美国1', 'CM 美国2', 'CU 美国2', 'CM 日本', 'CU 日本', 'CN2 日本 2X', 'CM 新加坡', 'CU 新加坡'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['CM 香港', 'CU 香港', 'CN2 香港 2X', 'CM 香港|HKT', 'CU 香港|HKT', 'CN2 香港-HKT 2X', 'CM 台湾1', 'CU 台湾1', 'CM 台湾2', 'CU 台湾2', 'CM 美国1', 'CU 美国1', 'CM 美国2', 'CU 美国2', 'CM 日本', 'CU 日本', 'CN2 日本 2X', 'CM 新加坡', 'CU 新加坡'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,rss.teacat001.xyz,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,Teacat'
@@ -71,7 +45,6 @@ rules:
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
     - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
     - 'DOMAIN,developer.apple.com,Teacat'
-    - 'DOMAIN-SUFFIX,manhuaren.com,Teacat'
     - 'DOMAIN-SUFFIX,digicert.com,Teacat'
     - 'DOMAIN,ocsp.apple.com,Teacat'
     - 'DOMAIN,ocsp.comodoca.com,Teacat'
@@ -157,7 +130,6 @@ rules:
     - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
     - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
     - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
-    - 'DOMAIN-SUFFIX,linkedin.com,DIRECT'
     - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
     - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
     - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
@@ -400,6 +372,7 @@ rules:
     - 'DOMAIN-SUFFIX,kat.cr,Teacat'
     - 'DOMAIN-SUFFIX,klip.me,Teacat'
     - 'DOMAIN-SUFFIX,libsyn.com,Teacat'
+    - 'DOMAIN-SUFFIX,linkedin.com,Teacat'
     - 'DOMAIN-SUFFIX,linode.com,Teacat'
     - 'DOMAIN-SUFFIX,lithium.com,Teacat'
     - 'DOMAIN-SUFFIX,littlehj.com,Teacat'
@@ -540,6 +513,8 @@ rules:
     - 'DOMAIN-SUFFIX,ytimg.com,Teacat'
     - 'DOMAIN-SUFFIX,telegra.ph,Teacat'
     - 'DOMAIN-SUFFIX,telegram.org,Teacat'
+    - 'DOMAIN-SUFFIX,manhuaren.com,Teacat'
+    - 'DOMAIN-SUFFIX,rastargames.com,Teacat'
     - 'IP-CIDR,91.108.4.0/22,Teacat,no-resolve'
     - 'IP-CIDR,91.108.8.0/21,Teacat,no-resolve'
     - 'IP-CIDR,91.108.16.0/22,Teacat,no-resolve'

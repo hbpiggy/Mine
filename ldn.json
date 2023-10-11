@@ -8,6 +8,12 @@
     "flag": "cn"
   },
   {
+    "comment": "srv.jaxlewis.top:11451",
+    "ip": "srv.jaxlewis.top",
+    "port": 11451,
+    "flag": "cn"
+  },
+  {
     "comment": "台湾 新北 中華電信",
     "ip": "122.116.141.58",
     "port": 11451,

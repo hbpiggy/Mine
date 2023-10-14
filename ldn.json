@@ -14,6 +14,12 @@
     "flag": "tw"
   },
   {
+    "comment": "Piggy",
+    "ip": "hbpiggy.top",
+    "port": 11451,
+    "flag": "cn"
+  },
+  {
     "comment": "上海 腾讯云3",
     "ip": "177040122.xyz",
     "port": 11451,

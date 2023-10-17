@@ -2,6 +2,12 @@
  "ver": 20230626,
  "data": [
   {
+    "comment": "Piggy",
+    "ip": "hbpiggy.top",
+    "port": 11451,
+    "flag": "cn"
+  },
+  {
     "comment": "上海 腾讯云",
     "ip": "124.221.52.85",
     "port": 11451,
